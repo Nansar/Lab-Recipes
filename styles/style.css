@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto Light 300;
+    font-size: 17px;
+}
+
+header {
+    height: 500px;
+    background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone-es/blob/master/apple-pie/images/apple-pie.jpg?raw=true");
+    background-size: cover;
+}
+
+header p {
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+#recipe-story p {
+    text-align: center;
+    font-size: 24px;
+}
+
+img {
+    width: 39%;
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-ingredients {
+    height: 36px;
+    text-align: center;
+    padding: 4rem;
+}
+
+.line {
+    margin: 8px;
+}
